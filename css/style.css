@@ -4,3 +4,16 @@
     margin: 0;
     padding: 0;
 }
+/* DEBUG */
+.debug header{
+    background-color: #add8e6;
+}
+.debug .header-top{
+    background-color: #daa52e;
+    height: 50px;
+}
+/* COMMON */
+.container{
+    max-width: 1200px;
+    margin:auto
+}
