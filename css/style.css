@@ -8,17 +8,17 @@
 .debug header{
     background-color: #add8e6;
 }
-.debug .header-top .container{
+.debug .header-top .row{
     background-color: #daa52e;
 }
 .bebug .header-top .row > *{
     border: 2px dashed;
     padding: 10px 5px;
 }
-.debug section .row{
+.debug section .container-row{
     height:400px;
 }
-.debug section .row > *{
+.debug section .container-row > *{
     border: 2px dashed;
 }
 .debug .col-big{
@@ -37,7 +37,7 @@
     height: 100px;
     border: 2px dashed;
 }
-.debug section:last-child .container{
+.debug section:last-child .container-row{
     height: 900px;
     background-color: green;
     border: 2px dashed;
@@ -61,11 +61,11 @@
 .debug .footer-top .col-big .col{
     border: 2px dashed white;
 }
-.debug .footer-bottom .container{
+.debug .footer-bottom .container {
     background-color:  #7fffd4;
     height: 50px;
 }
-.debug .footer-bottom .row > *{
+.debug .footer-bottom .container > * {
     background-color: #ffb6c1;
     border: 2px dashed;
     padding: 0 5px
@@ -76,12 +76,12 @@
     margin:auto
 }
 .container{
-     max-width: 1200px;
+    max-width: 1200px;
 }
 .container-small{
     max-width: 900px;
 }
-.row{
+.row, .container-row{
     display:flex;
 }
 /* HEADER */
@@ -120,7 +120,7 @@
 section{
     padding: 40px 0;
 }
-section:nth-child(2n){
+section:nth-child(even){
 background-color: #d3d3d3;
 }
 .col-big{
