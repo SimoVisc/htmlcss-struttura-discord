@@ -72,10 +72,10 @@
 }
 
 /* COMMON */
-.container, .container-small{
+.container-row,.container, .container-small{
     margin:auto
 }
-.container{
+.container, .container-row{
     max-width: 1200px;
 }
 .container-small{
@@ -121,7 +121,7 @@ section{
     padding: 40px 0;
 }
 section:nth-child(even){
-background-color: #d3d3d3;
+    background-color: #d3d3d3;
 }
 .col-big{
     width: 60%;
